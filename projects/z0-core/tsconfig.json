@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+     "outDir": "dist/lib",
+     "rootDir": "src",
+     "esModuleInterop": true,
+     "target": "esnext",
+     "module": "commonjs",
+     "strict": true,        
+     "composite": true,
+     "declaration": true,
+     "declarationMap": true,
+     "sourceMap": true,
+     "noImplicitAny": true,
+     "resolveJsonModule":true,
+     "moduleResolution": "node",
+     "lib": [
+         "esnext",
+         "dom"
+     ],
+
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

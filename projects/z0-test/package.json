@@ -1,0 +1,17 @@
+{
+  "name": "tscore-test",
+  "version": "0.0.1",
+  "description": "Verifies the correct function of tscore",
+  "main": "dist/lib/main.js",
+  "scripts": {
+    "build": "tsc --build . --verbose",
+    "clean": "rm dist -rf",
+    "test": "node dist/lib/main.js"
+  },
+  "author": "Chris Moore",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.7.0",
+    "z0-core": "^0.0.1"
+  }
+}

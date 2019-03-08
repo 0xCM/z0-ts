@@ -1,0 +1,12 @@
+{
+	"name": "root",
+	"private": true,
+	"scripts": {
+		"build": "bash build.sh",
+		"test": "bash test.sh"
+	},
+	"devDependencies": {
+		"lerna": "^3.13.1"
+	},
+	"dependencies": {}
+}

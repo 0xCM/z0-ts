@@ -1,0 +1,1 @@
+node projects/z0-test/dist/lib/main.js

@@ -1,0 +1,1 @@
+rollup ../dist/index.js -f cjs -o ../dist/tscore.js

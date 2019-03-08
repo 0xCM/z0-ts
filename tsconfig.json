@@ -1,0 +1,11 @@
+{
+    "files": [],
+    "references": [         
+        {"path": "projects/z0-core"},
+        {"path": "projects/z0-test"},
+        {"path": "projects/z0-watch"},
+        {"path": "projects/z0-zmq"},
+        {"path": "projects/z0-shell"},
+
+    ]
+}

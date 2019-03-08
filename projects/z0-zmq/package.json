@@ -1,0 +1,19 @@
+{
+  "name": "zmqts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "build": "tsc -b . --verbose",
+    "service": "node builds/service.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.7.0",
+    "@types/zeromq": "^4.6.1",
+    "zeromq": "^4.6.0",
+    "z0-core": "^0.0.1"
+
+  }
+}

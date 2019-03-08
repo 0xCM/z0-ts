@@ -1,0 +1,19 @@
+{
+  "name": "z0-shell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib/main.js",
+  "scripts": {
+    "build": "tsc --build . --verbose",
+    "clean": "rm dist -rf",
+    "main": "node dist/lib/main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.7.1",
+    "node-pty": "^0.7.6",
+    "z0-core": "^0.0.1"
+
+  }
+}

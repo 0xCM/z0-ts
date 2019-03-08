@@ -1,0 +1,19 @@
+{
+  "name": "z0-core",
+  "version": "0.0.1",
+  "description": "Vocabularies and functional idioms to make programming in javascript less miserable",
+  "main": "dist/lib/z0.js",
+  "typings": "dist/lib/z0.d.ts",
+  "scripts": {
+    "docs": "typedoc --out dist/docs",
+    "build": "bash scripts/build.sh",
+    "clean": "rm dist -rf"
+  },
+  "author": "Chris Moore",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "chalk": "^2.4.1",
+    "csv-parse": "^2.5.0"
+  }
+}
